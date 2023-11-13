@@ -111,7 +111,7 @@ body{
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -121,6 +121,10 @@ body{
     height: 200px;
     border-radius: 50%;
     margin: auto;
+}
+
+.author-img {
+    margin-bottom: 22vw !important;
 }
 
 #skillSection{
@@ -217,4 +221,23 @@ img.BootStrapLogo{
     .schoolimage {
         text-align: center;
     }
+}
+@media screen and (max-width: 400px){
+    .author-img{
+        margin-bottom: 0px !important;    
+    }
+}
+
+
+
+.githubLink {
+    color: black;
+}
+
+.githubLink:hover{
+    color: blue;
+}
+
+html {
+    scroll-behavior: smooth;
 }
